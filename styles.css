@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    float: left;
+    background-color: #1f2020;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+}
+
+.navHeader {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #1f2020;
+    overflow: auto;
+}
+.navHeader a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: auto;
+}
+.navHeader a:hover {
+    color: #ff8c00;
+}
+.navHeader a:active {
+    color: #ff8c00;
+    background-color: #1f2020;
+}
+
+.wrapper {
+    background-color: #292b2b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHome {
+    background-image: url("static/background.png");
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTextHome {
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgba(73, 73, 73, 0.76);
+    vertical-align: middle;
+    width: 40%;
+    font-size: larger;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #1f2020;
+    overflow: auto;
+    color: white;
+}
+
+.footerItem {
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+.mainTileable {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tile {
+    text-align: center;
+    background-color: #1f2020;
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 30%;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.tileImageDiv {
+    width: 100%;
+}
+.tileTitle {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.tileImage {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+.tileText {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
